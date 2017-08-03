@@ -32,7 +32,7 @@ class RasterAdjuster():
         
         # Reproject second dataset to projection of first dataset
         if self.raster1.GetProjection() != self.raster2.GetProjection():
-            self.raster2 = self.__reproject_raster_to_projection(self.raster2,raster1.GetProjection())
+            self.raster2 = self.__reproject_raster_to_projection(self.raster2,self.raster1.GetProjection())
         
         # Get extents
         self.raster1_extent = self.__extent_to_wkt_polygon(self.__get_extent(self.raster1))
