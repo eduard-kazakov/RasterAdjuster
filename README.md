@@ -10,6 +10,7 @@ Last modification: 2017-08-03
 Usage example:
 
 ```python
+from RasterAdjuster import RasterAdjuster
 # Initializate class, all work will be done immediately
 adjuster = RasterAdjuster('raster1_path','raster2_path')
 
@@ -32,5 +33,5 @@ adjuster.get_raster2_as_array(band_number=1)
 adjuster.export()
 
 # Export data to geotiff, to the custom places
-adjuster.export(raster1_export_path='/home/silent/r1.tif',raster1_export_path='/home/silent/r2.tif')
+adjuster.export(raster1_export_path='/home/silent/r1.tif',raster2_export_path='/home/silent/r2.tif')
 ```
