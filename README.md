@@ -3,7 +3,7 @@ Based on gdal/ogr class for simple and fast adjusting georasters
 
 Prerequisites: gdal>=2.1
 
-Author: Eduard Kazakov (silenteddie@gmail.com)
+Author: Eduard Kazakov (ee.kazakov@gmail.com)
 
 Last modification: 2017-08-03
 
